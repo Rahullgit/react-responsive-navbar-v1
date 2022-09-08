@@ -1,0 +1,75 @@
+.header {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+    
+
+}
+.header-bg{
+    background-color: rgb(205, 29, 211);
+} 
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.header .navbar img {
+    width: 250px;
+    height: auto;
+}
+
+.email{
+    display: flex;
+    height: 35px;
+    width: 35px;
+    background-color: aqua;
+}
+
+.phone{
+    display: flex;
+    width:  auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    color: rgb(250, 248, 248);
+}
+.back{
+    display: flex;
+    background-color: rgb(12, 8, 230);
+}
+
+.centre{
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+
+
+
+.img1{
+    margin-top: 70%;
+}
+
+.link{
+    color: aliceblue;
+    text-decoration: none;
+}
